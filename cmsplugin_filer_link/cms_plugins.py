@@ -15,7 +15,7 @@ class FilerLinkPlugin(CMSPluginBase):
     form = FilerLinkForm
     model = FilerLinkPluginModel
     module = 'Filer'
-    name = _("Link")
+    name = _("Link *** DON’T USE ME ***")
     raw_id_fields = ('page_link', )
     render_template = "cmsplugin_filer_link/link.html"
     text_enabled = True

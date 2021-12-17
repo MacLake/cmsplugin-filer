@@ -13,7 +13,7 @@ from filer.models.abstract import BaseImage
 class FilerFolderPlugin(CMSPluginBase):
     module = 'Filer'
     model = models.FilerFolder
-    name = _("Folder")
+    name = _("Folder *** DON’T USE ME ***")
     TEMPLATE_NAME = 'cmsplugin_filer_folder/plugins/folder/%s.html'
     render_template = TEMPLATE_NAME % 'default'
     text_enabled = False

@@ -17,7 +17,7 @@ class FilerFilePlugin(CMSPluginBase):
     form = FilerFileForm
     module = 'Filer'
     model = FilerFile
-    name = _("File")
+    name = _("File *** DON’T USE ME ***")
     TEMPLATE_NAME = 'cmsplugin_filer_file/plugins/file/%s.html'
     render_template = TEMPLATE_NAME % 'default'
     text_enabled = True

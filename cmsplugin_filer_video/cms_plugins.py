@@ -12,7 +12,7 @@ from cmsplugin_filer_video.forms import VideoForm
 class FilerVideoPlugin(CMSPluginBase):
     module = 'Filer'
     model = FilerVideo
-    name = _("Video")
+    name = _("Video *** DON’T USE ME ***")
     form = VideoForm
 
     render_template = "cmsplugin_filer_video/video.html"
